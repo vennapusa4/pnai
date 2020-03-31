@@ -1,6 +1,6 @@
 var natural = require('natural');
 var fs = require('fs');
-var classifier = new natural.BayesClassifier();
+var classifier = new natural.LogisticRegressionClassifier();
 
 let rawdata = fs.readFileSync('classifierdata.json');
 let classifierdata = JSON.parse(rawdata);
