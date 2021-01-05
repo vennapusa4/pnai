@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "apiai": "^4.0.3",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bayes": "^1.0.0",
     "bayes-classifier": "0.0.5",
     "body-parser": "^1.19.0",
